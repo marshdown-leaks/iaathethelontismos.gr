@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5" method="upgrade">
+	<name>COM_K2ADDITIONALCATEGORIES</name>
+	<author>Thodoris Bgenopoulos</author>
+	<creationDate>April 5th, 2013</creationDate>
+	<copyright>Copyright (c) 2012 netpin.gr. All rights reserved.</copyright>
+	<authorEmail>teobgeno@netpin.gr</authorEmail>
+	<authorUrl>www.netpin.gr</authorUrl>
+	<version>1.0.1</version>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description></description>
+	<installfile>install.k2additionalcategories.php</installfile>
+	<uninstallfile>uninstall.k2additionalcategories.php</uninstallfile>
+	<scriptfile>script.k2additionalcategories.php</scriptfile>
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">install.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">uninstall.sql</file>
+		</sql>
+	</uninstall>
+	<updateservers>
+	 <server type="extension" priority="1" name="Additional Categories for K2 Updates">http://www.netpin.gr/k2AddCupdate.xml</server>
+	</updateservers>
+	<administration>
+		<files folder="administrator/components/com_k2additionalcategories">
+			<filename>k2additionalcategories.php</filename>
+			<filename>index.html</filename>
+			<filename>install.sql</filename>
+			<filename>uninstall.sql</filename>
+		</files>
+	<languages>
+		<language tag="en-GB">en-GB.com_k2additionalcategories.ini</language>
+		<language tag="en-GB">en-GB.com_k2additionalcategories.sys.ini</language>
+	</languages>
+	</administration>
+	<plugins>
+		<plugin plugin="k2additonalcategories" group="k2" />
+	</plugins>
+</extension>

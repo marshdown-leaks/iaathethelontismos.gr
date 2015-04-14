@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="k2" method="upgrade">
+	<name>GalleryChamp for K2 (by JoomlaChamp)</name>
+	<author>Joomlachamp.com</author>
+	<creationDate>September, 2012</creationDate>
+	<copyright>Copyright (c) 2012 - 2013 Redpanda.gr. All rights reserved.</copyright>
+	<authorEmail>info@joomlachamp.com</authorEmail>
+	<authorUrl>www.joomlachamp.com</authorUrl>
+	<version>1.2.8</version>
+	<license>GNUv2 or later</license>
+	<description>Thank you for choosing gallerychamp. Keep in mind that both plugins need to be installed and enabled in order to work properly. For any questions or suggestions don't hesitate to visit us on joomlachamp.com or contact us on gallerychamp@joomlachamp.com</description>
+	<files>
+		<filename plugin="galleryChamp">galleryChamp.php</filename>
+	</files>
+</extension>

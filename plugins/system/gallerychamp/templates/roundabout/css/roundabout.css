@@ -1,0 +1,23 @@
+ul.roundabout {
+    list-style: none !important;
+    padding: 0;
+    margin: 30px auto !important;
+    width: 42em;
+    height: 28em;
+}
+ul.roundabout li {
+    height: 24em;
+    width: 24em;
+    text-align: center;
+    cursor: pointer;
+}
+ul.roundabout li img {
+    width: 100%;
+}
+ul.roundabout li.roundabout-in-focus {
+    cursor: default;
+}
+ul.roundabout li span {
+    display: block;
+    padding-top: 6em;
+}

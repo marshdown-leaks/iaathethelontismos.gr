@@ -1,0 +1,342 @@
+#k2Tab3 .alert, #item_gallery_content { display:none !important; }
+
+.gallerychamp_copyrights {
+    text-align:center;
+    font-size:1.1em;
+}
+
+.qq-uploader { position:relative; margin: 0 auto; width: 100%;}
+
+.qq-upload-button {
+    display:block; /* or inline-block */
+    width: 105px; padding: 7px 0; text-align:center;    
+    background:#3399FF; border-bottom:1px solid #ddd;color:#fff;
+    margin:0 auto;
+}
+.qq-upload-button-hover {background:#137BAF;}
+.qq-upload-button-focus {outline:1px dotted black;}
+
+.qq-upload-drop-area {
+    position:absolute; top:0; left:0; width:100%; height:100%; min-height: 70px; z-index:2;
+    background:#FF9797; text-align:center; 
+}
+.qq-upload-drop-area span {
+    display:block; position:absolute; top: 50%; width:100%; margin-top:-8px; font-size:16px;
+}
+.qq-upload-drop-area-active {background:#FF7171;}
+
+.qq-upload-list {margin:0; width:100%; padding:0; list-style:none;}
+.qq-upload-list li { margin:10px 0; padding:0; line-height:15px; font-size:12px;}
+.qq-upload-file, .qq-upload-spinner, .qq-upload-size, .qq-upload-cancel, .qq-upload-failed-text {
+    margin-right: 7px;
+}
+
+.qq-upload-file { display:block; padding-right:10px;}
+.qq-upload-spinner {display:inline-block; background: url("loading.gif"); width:15px; height:15px; vertical-align:text-bottom;}
+.qq-upload-size,.qq-upload-cancel {font-size:11px;}
+.qq-upload-size { display:inline-block;width:50%;text-align:left; }
+
+.qq-upload-failed-text {display:none;}
+.qq-upload-fail .qq-upload-failed-text {display:inline;}
+
+#gallerychamp-wrapper > section {
+    float:left;
+    min-height:200px;
+    width:46%;
+    border: 1px solid #CCCCCC;
+    margin:0 2px 10px;
+    padding: 5px;
+    text-align: left;
+}
+#gallerychamp-wrapper #img-config, #gallerychamp-wrapper #img-section { width: 25%; }
+ 
+#img-info {
+    background: none repeat scroll 0 0 #F6F6F6;
+    padding: 5px;
+}
+#img-info-close {
+    float: right;
+    display: inline-block;
+    background:url(../../../../administrator/templates/hathor/images/admin/publish_r.png);
+    width: 16px;
+    height: 16px;
+    text-indent: -9999px;
+}
+
+#gallerychamp-wrapper ul#gallery-container {
+    list-style-type: none; margin: 0; padding: 0;
+}
+
+#gallerychamp-wrapper ul#gallery-container li {
+    margin: 3px 10px; padding: 20px; float: left; text-align: center; background-color:#F6F6F6; position:relative;
+}
+
+#gallerychamp-wrapper ul#gallery-container li.placeholder {
+    background-color:#3399FF;
+}
+
+#gallerychamp-wrapper ul#gallery-container li div.panel {
+    position:absolute;
+    right:0;
+    top:2px;
+    z-index:2;
+    height:16px;
+    line-height:16px;
+    display:none;
+}
+
+#gallerychamp-wrapper ul#gallery-container li div.panel a {
+    margin:0 2px;
+}
+
+#gallerychamp-wrapper ul#gallery-container li div.panel img {
+    float:none;
+    margin:0;
+}
+
+#gallerychamp-wrapper ul#gallery-container li > img {
+    margin:auto;
+    float:none;
+}
+
+#gallerychamp-wrapper .gallery-displayed {
+    border: 1px solid #00ff80;
+}
+
+#gallerychamp-wrapper .display-red {
+    border: 1px solid #ff0000;
+}
+
+#gallerychamp-wrapper .gallery-displayed a.gc_displayimage, .gc_delimage
+{
+    display:inline-block;
+    width:16px;
+    height:16px;
+    line-height:16px;
+    text-indent:-9999px;
+    background:url(../../../../administrator/templates/hathor/images/admin/tick.png);
+}
+
+#gallerychamp-wrapper .display-red a.gc_displayimage
+{
+    background:url(../../../../administrator/templates/hathor/images/admin/publish_x.png);
+}
+
+#gallerychamp-wrapper .gc_delimage {
+    background:url(../../../../administrator/templates/hathor/images/admin/publish_r.png);
+}
+
+#gallerychamp-wrapper .img-head {
+    font-size:16px;
+    margin-top:10px;
+    position:relative;
+}
+
+#gallerychamp-wrapper .img-head a {
+    position:absolute;
+    right:5px;
+    top:5px;
+    font-size:12px;
+    font-weight:normal;
+}
+
+#gallerychamp-wrapper .img-name {
+    text-align:center;
+    font-size:14px;
+    font-weight:bold;
+    line-height:30px;
+    min-height:30px;
+}
+
+#gallerychamp-wrapper .img-paths span {
+    margin-bottom:8px;
+    display:inline-block;
+}
+
+#gallerychamp-wrapper .img-display {
+    overflow:hidden;
+}
+
+#gallerychamp-wrapper .img-display label {
+    float:left;
+    margin-right:10px;
+    display:inline-block;
+    clear:none;
+}
+
+#gallerychamp-wrapper .img-display label input[type=radio] {
+    vertical-align:middle;
+    margin:0;
+    height:10px;
+    line-height:10px;
+}
+
+#gallerychamp-wrapper .img-display label span {
+    height:10px;
+    line-height:10px;
+}
+
+#gallerychamp-wrapper .img-label {
+    float: none;
+    height: 40px;
+    margin: 5px 0 0;
+    padding: 0;
+    width: 100%;
+}
+
+#img-config label {
+    margin-left:3px;
+    display:block;
+    float:none;
+    clear:none;
+}
+
+#img-config label > div {
+    display:inline-block;
+    width:85px;
+    text-align:right;
+    margin-right:10px;
+}
+
+#img-config label input, #img-config label select {
+    display:inline-block;
+    width:50px;
+    float:none;
+}
+
+#img-config label select {
+    width:100px;
+}
+
+
+#img-config label input[type=submit] {
+    background-color:#3399FF;
+    color:#fff;
+    cursor:pointer;
+}
+
+#img-config label input[type=submit]:hover{
+    background-color:#137BAF;
+}
+
+#file-browse { text-align:center; }
+#k2ImageBrowseServer4GalleryChamp {
+    display:inline-block;
+    color:#fff;
+    padding:7px 20px;
+    background-color:#3399FF;
+    text-decoration:none;
+}
+#k2ImageBrowseServer4GalleryChamp:hover {
+    background-color:#137BAF;
+}
+#gallerychamp_browse { display:none; }
+
+#gc_conf_result { position:relative; }
+#gc_conf_result img { position:absolute;right:0;top:-16px; }
+
+.icon-32-copy.gallerychamp-copy {
+    background-image: url("../images/gallerychamp-copy.png");
+}
+
+#copyscreen .clr { display:block; clear:both; font-size:1px; height:1px; }
+
+#copyscreen div.logo {
+    width:100%;
+    height:60px;
+    background:#d4dee3 url(../images/smalllogogallerychamp.png) 50% 50% no-repeat;
+}
+
+#copyscreen div.info {
+    padding:10px 2px;
+}
+
+#copyscreen div.info span {
+    display:block;
+    float:left;
+    width:80%;
+}
+
+#copyscreen div.info a {
+    display:block;
+    padding:5px 15px;
+    text-decoration:none;
+    background:#e8e8e8;
+    float:right;
+    border:1px dotted #d4d4d4;
+    color:#000;
+}
+#copyscreen div.info a:hover {
+    border:1px dotted #4f4f4f;
+}
+
+#copyscreen div.config {
+    padding:10px 0;
+    border-top:1px dotted #4f4f4f;
+}
+
+#copyscreen div.config label {
+    float:left;
+    margin-left:70px;
+}
+
+#copyscreen div.config label:first-child {
+    margin-left:0;
+}
+
+#copyscreen div.config input[type=text] {
+    width:60px;
+    margin-top:7px;
+}
+
+#copyscreen div.config select { margin-top:7px; }
+
+#copyscreen table {
+    width:100%;
+}
+
+#copyscreen table tr th {
+    background:#d4dee3;
+    padding:8px 0;
+}
+
+#copyscreen table tr:hover td {
+    background-color:#dee6eb;
+}
+
+#copyscreen table tr td {
+    padding:5px;
+}
+
+#copyscreen table tr td.center {
+    text-align:center;
+    padding:5px 0;
+}
+
+#copyscreen tr.cur td {
+    color:#00bf30;
+}
+
+#copyscreen tr.stop td {
+    color:#e80000;
+}
+
+#copyscreen .checking {
+    background:url(../images/ajax-loader.gif) 50% 50% no-repeat;
+}
+
+#copyscreen .ok, #copyscreen .statustrue {
+    background:url(../../../../administrator/templates/hathor/images/admin/tick.png) 50% 50% no-repeat;
+}
+
+#copyscreen .notok {
+    background:url(../../../../administrator/templates/hathor/images/admin/publish_x.png) 50% 50% no-repeat;
+}
+
+#copyscreen .error {
+    background:url(../../../../administrator/templates/hathor/images/admin/publish_y.png) 50% 50% no-repeat;
+}
+
+#copyscreen .noimagefound {
+    background:url(../../../../administrator/templates/hathor/images/menu/icon-16-search.png) 50% 50% no-repeat;
+}
