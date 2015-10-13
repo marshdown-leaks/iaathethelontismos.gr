@@ -9,13 +9,16 @@ input, button, select, textarea,a
 {font-family: 'GFS Didot', serif!important;}*/
 /*LOGO*/
 #rt-logo{margin:0 auto;}
-
+body #k2Container input#genderf, body #k2Container input#genderm {
+    margin-left: -15px;
+    margin-top: 3px; 
+}  
 /*HEADER*/
 header{background: #302E29 !important;}
 #rt-top-surround{background:none; background-image:none;border-bottom:none;box-shadow:none; text-shadow:none;}
 #rt-top-surround::after{background: none !important;}
 #rt-top .rt-container{border-bottom: 2px solid #957842;}
-.rt-block.mainmenu{padding: 0;}
+.rt-block.mainmenu{padding: 0;margin:0}
 #rt-drawer{border-bottom: none;}
 #rt-header .rt-grid-3.rt-omega .rt-block{
     margin-bottom: 0;
@@ -228,8 +231,10 @@ hr {
 .periferies .itemToolbar{display: none;}
 .periferies .itemView{border-bottom: none !important;}
 /*BREADCRUMB*/
-.breadcrumb{background: none !important;text-shadow: none; display:none;}
-.breadcrumb li{text-shadow:none;color:#000 !important;}
+.breadcrumb{background: none !important;text-shadow: none;}
+.breadcrumb li{text-shadow:none;color:#000 !important;display:none;}
+.breadcrumb li:last-child{display:block;}
+.breadcrumb > li + li::before{display:none;}
 
 
 /*LOGIN*/

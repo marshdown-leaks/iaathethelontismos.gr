@@ -167,9 +167,9 @@ class ContactRouter extends JComponentRouterBase
 	 */
 	public function parse(&$segments)
 	{
+
 		$total = count($segments);
 		$vars = array();
-
 		for ($i = 0; $i < $total; $i++)
 		{
 			$segments[$i] = preg_replace('/-/', ':', $segments[$i], 1);

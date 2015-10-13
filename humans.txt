@@ -1,0 +1,14 @@
+Quality & Reliability S.A
+www.qnr.com.gr
+
+/* MAIN */
+  Develop & WebDesign Design: Vassilis Papachristos
+  Graphic Design: Spyros Kotinopoulos
+  <!--bpapachristos[at]gmail[dot]com-->
+  <!--vpap[at]qnr[dot]com[dot]gr-->
+
+  
+  /*Project Description:*/
+  Portal for volunteering  of Archbishop of Athens 2014-2015
+
+

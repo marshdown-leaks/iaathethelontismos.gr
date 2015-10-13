@@ -38,3 +38,4 @@ $app = JFactory::getApplication('site');
 
 // Execute the application.
 $app->execute();
+

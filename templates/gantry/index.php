@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
 * @version   $Id: index.php 15529 2013-11-13 22:04:39Z kevin $
  * @author RocketTheme http://www.rockettheme.com
@@ -56,7 +56,8 @@ $gpreset = str_replace(' ','',strtolower($gantry->get('name')));
     ?>
     <link href='http://fonts.googleapis.com/css?family=GFS+Didot&subset=greek' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/templates/gantry/css/fontello.css">
-    <link rel="stylesheet" href="/templates/gantry//css/animation.css">
+    <link rel="stylesheet" href="/templates/gantry/css/animation.css">
+    <link type="text/plain" rel="author" href="humans.txt">
   
         
 </head>
@@ -68,7 +69,7 @@ $gpreset = str_replace(' ','',strtolower($gantry->get('name')));
 		<div id="rt-top" <?php echo $gantry->displayClassesByTag('rt-top'); ?>>
 			<div class="rt-container">
   			<?php echo $gantry->displayModules('top','standard','standard'); ?>
-                                                         <a id="loginbtn" href="http://adf.qnr.com.gr:7001/volunteer">
+                                                         <a id="loginbtn" href="http://www.iaathethelontismos.gr:7001/volunteer">
 <span class="glyphicon glyphicon-th-large"></span>
 Σύνδεση Ενοριών/Φορέων
 </a>
